@@ -23,7 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - Products 
-      run: cd microservice-commandes/ && mvn dependency::tree && cd target/ && java -jar mcommandes-0.0.1-SNAPSHOT.jar
+      run: cd microservice-commandes/ && mvn dependency::tree && java -jar microservice-commandes/target/mcommandes-0.0.1-SNAPSHOT.jar
     - name: Build with Maven - Payments
       run: cd microservice-paiement/ && mvn dependency::tree
     - name: Build with Maven - Commands
