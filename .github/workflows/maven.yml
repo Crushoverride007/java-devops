@@ -24,3 +24,7 @@ jobs:
         cache: maven
     - name: Build with Maven Products 
       run: cd microservice-commandes/ && mvn dependency::tree 
+    - name: Build with Maven Payments
+      run: cd ../microservice-paiement/ && mvn dependency::tree
+    - name: Build with Maven Commands
+      run: cd ../microservice-commandes/ && mvn dependency::tree
