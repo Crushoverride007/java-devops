@@ -23,4 +23,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven Products 
-      run: cd microservice-commandes/ && mvn dependency::tree && mvn clean package -DSkipTests
+      run: cd microservice-commandes/ && mvn dependency::tree 
