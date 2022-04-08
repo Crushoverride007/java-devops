@@ -27,6 +27,12 @@ jobs:
     - name: Build with Maven - Payments
       run: cd microservice-paiement/ && mvn dependency::tree
     - name: Build with Maven - Commands
-      run: cd microservice-commandes/ && mvn dependency::tree
+      run: cd microservice-produits/ && mvn dependency::tree
     - name: Build with Maven - ClientUI
       run: cd clientui/ && mvn dependency::tree
+    - name: Java Build of Commands with jar
+      run: cd microservice-commandes/ && java -jar mcommandes-0.0.1-SNAPSHOT.jar 
+    - name: Java Build of Payments with jar
+      run: cd microservice-paiement/ && java -jar mpaiement-0.0.1-SNAPSHOT.jar
+    - name: Java Build of Products with jar
+      run: cd microservice-produits/ && java -jar mproduits-0.0.1-SNAPSHOT.jar
