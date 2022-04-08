@@ -1,6 +1,6 @@
 package com.clientui;
 
-import com.clientui.exceptions.CustomErrorDecoder;
+// import com.clientui.exceptions.CustomErrorDecoder;
 import com.clientui.proxies.MicroserviceProduitsProxy;
 import feign.Feign;
 import org.springframework.boot.SpringApplication;
