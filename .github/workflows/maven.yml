@@ -25,7 +25,7 @@ jobs:
     - name: Build with Maven - Commands 
       run: cd microservice-commandes/ && mvn dependency::tree 
     - name: java build with jar
-      run: cd /target/ && java -jar mproduits-0.0.1-SNAPSHOT.jar
+      run: cd ./microservice-commandes/target/ && java -jar mproduits-0.0.1-SNAPSHOT.jar
     - name: Build with Maven - Payments
       run: cd microservice-paiement/ && mvn dependency::tree
     - name: Build with Maven - Products
