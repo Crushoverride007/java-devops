@@ -23,7 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven Products 
-      run: cd ../microservice-commandes/ && mvn clean package -DSkipTests
+      run: cd microservice-commandes/ && mvn clean package -DSkipTests
     - name: Build with Maven Payments
       run: cd ../microservice-paiement/ && mvn clean package -DSkipTests
     - name: Build with Maven Commands
