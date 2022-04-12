@@ -22,7 +22,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven - Commands 
+    - name: Build with Maven - Commands
       run: cd microservice-commandes/ && mvn dependency::tree
     - name: java build with jar
       run: cd microservice-commandes && ls
@@ -32,5 +32,3 @@ jobs:
       run: cd microservice-produits/ && mvn dependency::tree
     - name: Build with Maven - ClientUI
       run: cd clientui/ && mvn dependency::tree
-
-   

@@ -13,5 +13,3 @@
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Top contributors
 [![Top contributors](https://images.repography.com/24819915/Crushoverride007/java-devops/top-contributors/6744b7929a322b45c3f07f68c0df7f75_table.svg)](https://github.com/Crushoverride007/java-devops/graphs/contributors)
-
-
