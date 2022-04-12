@@ -24,6 +24,11 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Finchley.M8</spring-cloud.version>
 	</properties>
+	
+	<properties>
+	  <sonar.organization>crushoverride007</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 
 	<dependencies>
 		<dependency>
